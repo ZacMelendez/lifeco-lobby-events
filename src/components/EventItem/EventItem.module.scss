@@ -1,0 +1,21 @@
+.eventItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 80%;
+    height: 10%;
+    // border: 1px solid black;
+
+    h2 {
+        font-weight: 600;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
