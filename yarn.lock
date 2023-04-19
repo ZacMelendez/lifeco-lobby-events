@@ -369,6 +369,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-table@^7.7.14":
+  version "7.7.14"
+  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.7.14.tgz#b880f1ae140ed065bca2e21b3008ca1ebe71595a"
+  integrity sha512-TYrv7onCiakaG1uAu/UpQ9FojNEt/4/ht87EgJQaEGFoWV606ZLWUZAcUHzMxgc3v1mywP1cDyz3qB4ho3hWOw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18.0.28":
   version "18.0.37"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.37.tgz#7a784e2a8b8f83abb04dc6b9ed9c9b4c0aee9be7"
@@ -970,6 +977,11 @@ react-simply-carousel@^8.5.5:
   integrity sha512-42KrPSbMB7HJRlINszXenxnal7jd0p1bpo0r5pttsJY+CXRiwSiySzPDo9roBE7qedvYQ48EBDUYlcHq3qk3Mg==
   dependencies:
     core-js "^3.8.1"
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react@^18.2.0:
   version "18.2.0"

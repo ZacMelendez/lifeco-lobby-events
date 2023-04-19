@@ -1,21 +1,30 @@
 .mission {
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    height: 75px;
-    width: auto;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: 75px;
+  width: auto;
 }
 
 .logos {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 
-    img {
-        height: 35px;
-        width: auto;
-    }
+  img {
+    height: 35px;
+    width: auto;
+  }
+}
+
+.dots {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  height: 25px;
+  width: auto;
+  z-index: 10;
 }
