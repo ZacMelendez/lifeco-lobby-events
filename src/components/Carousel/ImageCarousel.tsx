@@ -21,7 +21,7 @@ function ReactSimplyCarouselExample() {
                 speed={700}
                 autoplay
                 autoplayDelay={3000}
-                easing="linear"
+                easing="ease-in-out"
                 backwardBtnProps={{ show: false }}
                 forwardBtnProps={{ show: false }}
             >
