@@ -19,7 +19,7 @@ function App() {
         <div className="app">
             <DayBanner />
             <Mission />
-            {/* <Logos /> */}
+            <Logos />
             <div className="events">
                 {events.map((event) => (
                     <EventItem event={event} />

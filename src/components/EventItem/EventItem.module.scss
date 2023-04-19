@@ -10,12 +10,17 @@
     // border: 1px solid black;
 
     h2 {
-        font-weight: 600;
+        font-weight: 700;
+        font-size: 28px;
     }
 
     .details {
         display: flex;
         flex-direction: row;
         gap: 10px;
+
+        * {
+            font-size: 16px;
+        }
     }
 }
