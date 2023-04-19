@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lifecochurch.github.io/lifeco-cloud",
+  "homepage": "https://ZacMelendez.github.io/lifeco-lobby-events",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
