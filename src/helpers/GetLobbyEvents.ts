@@ -1,3 +1,4 @@
+import moment from "moment";
 import { EventItemProps } from "../components/EventItem/EventItem";
 
 export const getLobbyEvents = async (): Promise<EventItemProps[]> => {
@@ -7,9 +8,11 @@ export const getLobbyEvents = async (): Promise<EventItemProps[]> => {
         );
         const data = (await response.json()) as EventItemProps[];
 
-        return data.filter((item) =>
-            item.location.toLowerCase().includes("room")
-        );
+        console.log(data);
+
+        return data
+            .filter((item) => item.location.toLowerCase().includes("room"))
+            .filter((item) => moment(item.start).date() == moment().date());
     } catch (err) {
         console.error(err);
         return [];
